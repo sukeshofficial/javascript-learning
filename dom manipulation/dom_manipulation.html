@@ -1,0 +1,71 @@
+<h2 id="status">Not logged In 🔐</h2>
+<button onclick="login()">Log In</button>
+
+<!--Task 1-->
+<!--
+    // Write the greet() function:
+    // - Change the text to "Welcome, Sukesh!"
+    // - Change text color to green
+    // - Add background color (like lightyellow)
+-->
+
+<h1 id="title">Hey Visitor 👀</h1>
+<button onclick="greet()">Click to Greet</button>
+
+<!--Task 2-->
+<!--
+    // Write toggleLogin():
+    // - If status is "Not Logged In", change it to "Welcome, Sukesh 👋"
+    // - If already logged in, change it back to "Not Logged In 🔒"
+    // Bonus: Change button text between "Log In" and "Log Out"
+-->
+
+<h2 id="status1" style="color: red;">Not Logged In 🔒</h2>
+<button id="statusButton" onclick="toggleLogin()">Log In</button>
+
+<!--Task 3-->
+<!--
+    // Write styleText():
+    // - Make font size 24px
+    // - Change color to purple
+    // - Add bold (fontWeight = "bold")
+-->
+
+<p id="quote">"Coding is fun when logic clicks!"</p>
+<button onclick="styleText()">Style It</button>
+
+<script>
+    function login() {
+        let status = document.getElementById("status");
+        status.textContent = "Logged In 🟢";
+        status.style.color = "light-green";
+    }
+
+    function greet() {
+        let title = document.getElementById("title");
+        title.textContent = "Welcome, Sukesh!";
+        title.style.color = "green";
+    }
+
+    function toggleLogin() {
+        let status = document.getElementById("status1");
+        let statusButton = document.getElementById("statusButton");
+        if(status.textContent == "Not Logged In 🔒" && statusButton.textContent == "Log In"){
+            status.textContent = "Welcome, Sukesh 👋";
+            statusButton.textContent = "Log Out";
+            status.style.color = "green";
+        }
+        else {
+            status.textContent = "Not Logged In 🔒";
+            statusButton.textContent = "Log In";
+            status.style.color = "red";
+        }
+    }
+
+    function styleText() {
+        let quote = document.getElementById("quote");
+        quote.style.fontSize = "24px";
+        quote.style.color = "purple";
+        quote.style.fontWeight = "bold";
+    }
+</script>
