@@ -18,7 +18,16 @@ The goal of this repo is to:
 
 Each folder in this repo represents either a topic or a small project:
 
-js-practice/ ├── 01-variables/ ├── 02-functions/ ├── 03-arrays/ ├── 04-dom-manipulation/ ├── mini-projects/ └── README.md
+js-practice/ 
+├── 01-variables/
+    ├── variables.js
+├── 02-functions/
+    ├── funtions.js
+    ├── functions-advanced.js
+├── 03-arrays/ 
+├── 04-dom-manipulation/ 
+├── mini-projects/ 
+└── README.md
 
 
 ---
