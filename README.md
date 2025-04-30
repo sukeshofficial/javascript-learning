@@ -18,17 +18,30 @@ The goal of this repo is to:
 
 Each folder in this repo represents either a topic or a small project:
 
-js-practice/ 
+```plaintext
+js-practice/
 ├── 01-variables/
-    ├── variables.js
+│   └── index.js
 ├── 02-functions/
-    ├── funtions.js
-    ├── functions-advanced.js
-├── 03-arrays/ 
-├── 04-dom-manipulation/ 
-├── mini-projects/ 
+│   ├── functions.js
+|   └── functions-advance.js
+├── 03-arrays/
+│   └── arrayMethods.js
+├── 04-objects/
+│   └── objectBasics.js
+├── 05-dom-manipulation/
+│   └── clickCounter.html
+├── 06-events/
+│   └── eventListeners.js
+├── mini-projects/
+│   ├── calculator/
+│   │   ├── index.html
+│   │   └── script.js
+│   └── to-do-list/
+│       ├── index.html
+│       └── app.js
 └── README.md
-
+```
 
 ---
 
